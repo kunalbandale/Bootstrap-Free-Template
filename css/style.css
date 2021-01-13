@@ -1,0 +1,155 @@
+.bgimg {
+  background-image: url("../images/body.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 660px;
+}
+
+.headerset {
+  padding: 200px;
+  box-sizing: border-box;
+}
+
+.headerset h2 {
+  font-size: 42px;
+}
+
+.headerset h1 {
+  font-size: 82px;
+  font-weight: bold;
+}
+
+/* our services */
+
+.ourservices {
+  padding: 100px 0px 60px;
+  height: 700px;
+}
+
+.ourservices h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin: 80px 0px !important;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.fa-shopping-cart {
+  margin-top: 21px;
+}
+
+.fa-desktop {
+  margin-top: 21px;
+}
+
+.fa-lock {
+  margin-top: 21px;
+}
+
+.rowsetting h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.rowsetting p {
+  padding: 10px;
+  color: #6c6c6c !important;
+}
+
+/* portfolio */
+
+.portfolio {
+  margin-top: 100px;
+  height: 1100px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+
+.portfolio h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+/* our team */
+
+.ourteam {
+  height: 700px;
+  padding: 100px 0px 60px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.ourteam h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.teamsetting {
+  margin-top: 50px !important;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 100px;
+  height: 50px;
+  background-color: #6c6c6c;
+}
+
+.footer h6 {
+  line-height: 50px;
+}
+
+/* responsive */
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+@media (min-width: 460px) and (max-width: 574px) {
+}
+
+@media (max-width: 459px) {
+  .headerset h2 {
+    font-size: 22px;
+  }
+
+  .headerset h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .ourservices  {
+    /* margin-bottom: 600px; */
+    
+  }
+
+  .portfolio {
+    height: 2400px;
+    /* margin-top: 600px; */
+  }
+
+  .ourteam {
+    height: 1400px;
+  }
+
+
+}
